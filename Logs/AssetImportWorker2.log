@@ -1,0 +1,289 @@
+Unity Editor version:    2022.3.14f1 (eff2de9070d8)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.2 (Build 24C101)
+Darwin version:          24.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/valikkolomiyets/Documents/Unity All/2d SHoot
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49318
+Successfully changed project path to: /Users/valikkolomiyets/Documents/Unity All/2d SHoot
+/Users/valikkolomiyets/Documents/Unity All/2d SHoot
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8600535616] Host "[IP] 192.168.50.56 [Port] 0 [Flags] 2 [Guid] 25944078 [EditorId] 25944078 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8600535616] Host "[IP] 192.168.50.56 [Port] 0 [Flags] 2 [Guid] 25944078 [EditorId] 25944078 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 13 workers.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/valikkolomiyets/Documents/Unity All/2d SHoot/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Max (high power)
+Metal devices available: 1
+0: Apple M3 Max (high power)
+Using device Apple M3 Max (high power)
+Initializing Metal device caps: Apple M3 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56526
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000647 seconds.
+- Loaded All Assemblies, in  0.166 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.124 seconds
+Domain Reload Profiling: 290ms
+	BeginReloadAssembly (41ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (41ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (66ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (124ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (92ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 821ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (1.8 MB). Loaded Objects now: 5106.
+Memory consumption went from 186.4 MB to 184.6 MB.
+Total: 4.804458 ms (FindLiveObjects: 0.154458 ms CreateObjectMapping: 0.054792 ms MarkObjects: 4.349750 ms  DeleteObjects: 0.245000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:QuantumUnityDBImporterAssetObjectsDependency: 8cc05c2273e06e808e466218dbf56ddb -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34148.586689 seconds.
+  path: Assets/PlatformShooter2D/Audio/Sfx_gun_autorifle_destroy.wav
+  artifactKey: Guid(feaba837d77bc6a41b93203faf0f7310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/Sfx_gun_autorifle_destroy.wav using Guid(feaba837d77bc6a41b93203faf0f7310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e94153bfc6295012a3f7b32c6e7c8f') in 0.091894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlatformShooter2D/Audio/BGMusic.prefab
+  artifactKey: Guid(0bddc2482b7bfb14c8258467d23c425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/BGMusic.prefab using Guid(0bddc2482b7bfb14c8258467d23c425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a383d537bc2c637eea06a104ce47badf') in 0.004872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/PlatformShooter2D/Audio/Sfx_gun_bazooka_explosion.wav
+  artifactKey: Guid(44d730ac72fd6b445ad2a72408d216df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/Sfx_gun_bazooka_explosion.wav using Guid(44d730ac72fd6b445ad2a72408d216df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eaa8aeec938b735cf891d7f6a08e65') in 0.004560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlatformShooter2D/Audio/Sfx_enemy_hit.wav
+  artifactKey: Guid(c3d575c16fd49ae40957472a2b24db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/Sfx_enemy_hit.wav using Guid(c3d575c16fd49ae40957472a2b24db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1121f856ffac27d9a62b7ab73fbc3d') in 0.003260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PlatformShooter2D/Audio/Sfx_enemy_kill.wav
+  artifactKey: Guid(5d78ac36bda45454ab4aac870506af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/Sfx_enemy_kill.wav using Guid(5d78ac36bda45454ab4aac870506af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e687aa773c1b983ab3e5b7ce5be4039') in 0.003872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlatformShooter2D/Audio/Sfx_gun_autorifle_shoot.wav
+  artifactKey: Guid(73e046be84f5a224cbd14578fd54b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformShooter2D/Audio/Sfx_gun_autorifle_shoot.wav using Guid(73e046be84f5a224cbd14578fd54b983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e403cf686a76bc9b291e555e18ec84d') in 0.003587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.781151 seconds.
+  path: Assets/Scenes/QuantumGameScene/LightingData.asset
+  artifactKey: Guid(0527a13a016d6ab4ea5b5801fa14ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/LightingData.asset using Guid(0527a13a016d6ab4ea5b5801fa14ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dfabd2a93fda2da42eab38d80ea791') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/QuantumGameScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(625c9d0e0bd25f0429dca6778d7f02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/Lightmap-3_comp_dir.png using Guid(625c9d0e0bd25f0429dca6778d7f02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca0901af0fd5af31851e3b7bbd9d3b4') in 0.024083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scenes/QuantumGameScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(04084f0e434a32843898b0071b04c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/Lightmap-1_comp_dir.png using Guid(04084f0e434a32843898b0071b04c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2f011d29b0b437c213431239592ac') in 0.004047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/QuantumGameScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(6f0c4687b73d7864e900c04ed5ec5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/Lightmap-3_comp_light.exr using Guid(6f0c4687b73d7864e900c04ed5ec5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d71cb99780639f6c059d67562f9e8a9') in 0.040210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/QuantumGameScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(538b2920872edef428569781f7675231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/Lightmap-2_comp_dir.png using Guid(538b2920872edef428569781f7675231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e74009962d27bdc56822c8c863a7251') in 0.003945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scenes/QuantumGameScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(58786fd8fb9a5c849b9bf8896ebf534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/QuantumGameScene/Lightmap-2_comp_light.exr using Guid(58786fd8fb9a5c849b9bf8896ebf534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e805250c9f73ec4f5668ad0365a6a55c') in 0.003334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
